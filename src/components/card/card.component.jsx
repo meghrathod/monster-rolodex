@@ -9,7 +9,7 @@ export const Card = (props) =>{
                 alt={`Robot ${props.monster.id}`}
             />
             <h2>{props.monster.name}</h2>
-            <h2>{props.monster.email}</h2>
+            <p>{props.monster.email}</p>
         </div>
     );
 }
